@@ -1,5 +1,4 @@
 const express = require("express");
-const Model = require("../models/model.js.example");
 const router = express.Router();
 const client = require("../mqtt");
 

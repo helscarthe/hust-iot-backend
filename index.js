@@ -33,6 +33,9 @@ app.use(express.json());
 const CommandRoutes = require("./routes/command");
 app.use("/api/command",CommandRoutes)
 
+const ChaucayRoutes = require("./routes/chaucay");
+app.use("/api/chaucay",ChaucayRoutes)
+
 app.listen(8000, () => {
   console.log("Listening on port 8000");
 })
